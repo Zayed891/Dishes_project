@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.dish-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.dish {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+  max-width: 200px;
+  text-align: left;
+}
+
+.dish img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.dish h3 {
+  font-size: 1.2em;
+}
+
+.dish button {
+  margin-top: 10px;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.dish button:hover {
+  background-color: #0056b3;
+}
+
+
